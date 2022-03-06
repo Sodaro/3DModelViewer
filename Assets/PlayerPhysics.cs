@@ -37,8 +37,8 @@ public class PlayerPhysics : MonoBehaviour
             Vector3 inputVelocity = _moveDirection * speed;
             _velocity = new Vector3(inputVelocity.x, 0, inputVelocity.z);
 
-            if (Input.GetKey(KeyCode.Space) && _isGrounded)
-                HandleJump();
+            //if (Input.GetKey(KeyCode.Space) && _isGrounded)
+            //    HandleJump();
         }
         else
         {
